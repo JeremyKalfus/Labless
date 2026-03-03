@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labless | Internet-Native Research Collaboration</title>
+    <meta
+      name="description"
+      content="Labless is an internet-native research app where independent researchers form project-based teams across writing, coding, proofreading, and analysis roles, focused on biology + ML."
+    />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #101010;
+        --muted: #5a5a5a;
+        --line: #e8e8e8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      body {
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 56px 24px 80px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.25;
+        margin: 0 0 14px;
+        font-weight: 600;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.7rem);
+        margin-bottom: 8px;
+      }
+
+      h2 {
+        font-size: 1.28rem;
+        margin-top: 34px;
+      }
+
+      p,
+      li {
+        font-size: 1.05rem;
+        margin: 0 0 14px;
+      }
+
+      ul {
+        margin: 0 0 16px 22px;
+        padding: 0;
+      }
+
+      .subhead {
+        color: var(--muted);
+        font-size: 1.05rem;
+        margin-bottom: 28px;
+      }
+
+      .stamp {
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .section {
+        border-top: 1px solid var(--line);
+        padding-top: 24px;
+      }
+
+      .cta {
+        border: 1px solid var(--text);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 3px;
+      }
+
+      .domains {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin-top: 34px;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          padding: 42px 18px 60px;
+        }
+
+        p,
+        li {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Labless</h1>
+        <p class="subhead">An internet-native way to run biology + ML research together.</p>
+        <p class="stamp">Working draft whitepaper - March 3, 2026</p>
+      </header>
+
+      <section class="section" id="problem">
+        <h2>1. Problem</h2>
+        <p>
+          Great research talent is distributed, but labs are not. Many capable researchers,
+          engineers, and scientific writers are outside formal institutions, underutilized, or
+          disconnected from projects where they could contribute.
+        </p>
+        <p>
+          Research collaboration is highly fragmented. Practically every lab is merely a cluster
+          of people who happen to live near each other. If labs do not have someone who meets a
+          certain required skill set, they take weeks trying to find one. Similarly, independent
+          researchers are screwed. If you don't have an existing lab to work in or major
+          connections, finding people to publish with is impossible.
+        </p>
+        <p>
+          The inneficiency in research this causes leads to signficant deadweight loss 
+          (except instead of worse pricing, it's slower and worse-quality research). People
+          often say "research is slow," but research <i>shouldn't</i> be slow! Solving a 
+          major market inneficiency in research like this could turn years-long projects into 
+          months-long ones and months-long ones into monthly ones!
+    
+        </p>
+      </section>
+
+      <section class="section" id="thesis">
+        <h2>2. Thesis</h2>
+        <p>
+          ML and bioinformatics research (and soon general bio once cloud labs are commonplace) should
+          work more like open-source software: project-first, role-based, and internet-native.
+        </p>
+        <p>
+          Instead of joining a lab first and finding projects second, people should discover projects
+          first and join where their expertise is most useful.
+        </p>
+      </section>
+
+      <section class="section" id="what-we-are-building">
+        <h2>3. What We Are Building</h2>
+        <p>
+          Labless is an online app where researchers post projects and recruit
+          collaborators by role.
+        </p>
+        <ul>
+          <li>Each project defines a goal, scope, timeline, and required expertise.</li>
+          <li>
+            Contributors apply to specific roles (for example: writer, proofreader, coder, analyst).
+          </li>
+          <li>Project owners review applicants and form compact, execution-focused teams.</li>
+          <li>
+            Work happens transparently with clear contribution records, making output and credit
+            easier to track.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="focus">
+        <h2>4. Initial Focus</h2>
+        <p>
+          We will be starting with bioinformatics + ML research, where interdisciplinary collaboration is
+          essential and contributors often span academia, industry, and independent practice. Work in
+          these fields is often done from home and can thus easily be coordinated across the internet.
+        </p>
+        <p>
+          Over time, the framework can extend to other scientific domains, but the first priority is
+          a strong vertical product for bio/ML teams.
+        </p>
+      </section>
+
+      <section class="section" id="why-now">
+        <h2>5. Why Now</h2>
+        <ul>
+          <li>Remote collaboration is now normal.</li>
+          <li>AI-assisted workflows lower coordination inefficiencies and increase individual output.</li>
+          <li>Scientific talent is increasingly global and independent.</li>
+          <li>
+            Existing tools support communication, but not the full lifecycle of assembling and
+            running research teams around projects.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="cofounder">
+        <h2>6. Cofounder Search</h2>
+        <p>
+          Labless is looking for a cofounder to help build the first version and shape the company.
+        </p>
+        <div class="cta">
+          <h3>Who am I?</h3>
+          <ul>
+            <li>Naive: 18. No idea how to run or scale a startup.</li>
+            <li>
+              A dreamer: I believe we can grow Labless to hundreds of thousands of users. I want
+              to redefine ML + bioinformatics research forever.
+            </li>
+            <li>
+              Technical: Very skilled in R and Python. I have worked in labs at top-10
+              universities.
+            </li>
+          </ul>
+          <h3>Who I need</h3>
+          <ul>
+            <li>
+              Someone much more experienced than me: someone who can navigate the world of startups
+              and has major connections.
+            </li>
+            <li>Someone practical: knows which ideas will work and which will not.</li>
+            <li>
+              Someone much smarter than me: highly technical, experienced in system design, and
+              very strong in CS fundamentals.
+            </li>
+          </ul>
+          <p>
+            If this fits you, email <a href="mailto:jeremykalfus@gmail.com">jeremykalfus@gmail.com</a>
+            with your resume or some projects you've made. Use the subject "Labless."
+          </p>
+        </div>
+      </section>
+
+      <footer class="domains">
+        Live on both domains: <a href="https://lab-less.com">lab-less.com</a> and
+        <a href="https://labless.bio">labless.bio</a>
+      </footer>
+    </main>
+  </body>
+</html>

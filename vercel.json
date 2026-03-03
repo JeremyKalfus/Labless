@@ -1,0 +1,37 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.labless.bio"
+        }
+      ],
+      "destination": "https://labless.bio/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "lab-less.com"
+        }
+      ],
+      "destination": "https://labless.bio/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.lab-less.com"
+        }
+      ],
+      "destination": "https://labless.bio/$1",
+      "permanent": true
+    }
+  ]
+}
